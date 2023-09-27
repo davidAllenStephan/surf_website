@@ -1,7 +1,6 @@
 # surf_website
-Run instructions
-Mac
-----------------------
-git clone https://github.com/davidAllenStephan/surf_website.git<n>
-brew install php<n>
-php -S localhost:8000<n>
+<h3>Run instructions</h3>
+<h4>Mac</h4>
+git clone https://github.com/davidAllenStephan/surf_website.git<br>
+brew install php<br>
+php -S localhost:8000<br>
