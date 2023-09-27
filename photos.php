@@ -48,8 +48,8 @@ Website created and maintained by Alex Testin
 
 <img src="images/gallery/24.jpg" alt="Jelly Pic 2" class="sponsorImg" style="max-width:260px; height:auto; vertical-align:middle;">
 
-<img src="images/gallery/23.jpg" alt="Jelly Pic 1" class="sponsorImg" style="max-width:260px; height:auto; vertical-align:middle;"> 
-          
+<img src="images/gallery/23.jpg" alt="Jelly Pic 1" class="sponsorImg" style="max-width:260px; height:auto; vertical-align:middle;">
+
 <img src="images/gallery/20.JPG" alt="volunteer mu" class="sponsorImg" style="max-width:260px; height:auto; vertical-align:middle;">
 
 <img src="images/gallery/21.JPG" alt="family photo" class="sponsorImg" style="max-width:260px; height:auto; vertical-align:middle;">
