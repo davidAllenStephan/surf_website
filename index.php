@@ -171,22 +171,22 @@ Website created and maintained by Alex Testin
         <br>
         <div style="display:inline-block; max-width:1280px; margin:0px auto 0px;">
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Co-President</h4>
+            <h4 style="margin:10px">Treasurer</h4>
             <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
-              <i>Nathan Crum<br></i>
-              <img src="images/officers/NathanCrum.png" alt="co-president" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <i>Ethan Anderson<br></i>
+              <img src="images/officers/ea.jpg" alt="co-president" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
               "Hello! My name is Nathan Crum, and I am a recent May 2022 graduate of Mizzou's Mechanical and Aerospace Engineering programs. I am fascinated by the development of aerospace vehicle control systems, and more recently have become an avid fan of the intersection between autonomous systems and aerospace vehicles. In my free time I enjoy exploring Columbia by bike and playing board games with friends!"
               </p>
               <h6 style="margin:10px">Contact: nac4dc@umsystem.edu</h6>
             </div>
-            
+
           </div>
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Co-President</h4>
+            <h4 style="margin:10px">Busniess Outreach Officer</h4>
             <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
-              <i>Maria Lusardi<br></i>
-              <img src="images/officers/secretary(2).jpg" alt="co-President" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <i>Daniel Hough<br></i>
+              <img src="images/officers/daniel_hough.jpg" alt="co-President" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
                 "My name is Maria Lusardi and I am a senior studying Computer Science. SURF has not only given me great experience in developing software for autonomous applications, but it has also helped me develop leadership and organization skills. I also enjoy playing violin and knitting!"
               </p>
@@ -194,18 +194,18 @@ Website created and maintained by Alex Testin
             </div>
           </div>
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Secretary</h4>
+            <h4 style="margin:10px">Co-President and Software Team Lead</h4>
             <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
-              <i>Colm Barry<br></i>
-              <img src="images/officers/PresidentColm.jpg" alt="Secretary" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <i>Kendra Minch<br></i>
+              <img src="images/officers/headshot_Kendra.jpg" alt="Secretary" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
               "I am a senior in Mechanical Engineering with a minor in Aerospace Engineering. I like SURF because building robots underwater comes with more challenges that require complex solutions."
               </p>
               <h6 style="margin:10px">Contact: crbtvc@umsystem.edu</h6>
             </div>
-            
+
           </div>
-          
+
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
             <h4 style="margin:10px">Treasurer</h4>
             <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
@@ -213,10 +213,10 @@ Website created and maintained by Alex Testin
               <img src="images/officers/MasonFleck.jpeg" alt="Treasurer" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
                 "My name is Mason Fleck and I'm a junior majoring in electrical and computer engineering. What I like about Surf is that I get to explore a bunch of different aspects of engineering at once for one goal."
-              </p> 
+              </p>
               <h6 style="margin:10px">Contact: mrfc9r@umsystem.edu</h6>
             </div>
-            
+
           </div>
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
             <h4 style="margin:10px">Mechanical Team Member</h4>
@@ -225,10 +225,10 @@ Website created and maintained by Alex Testin
               <img src="images/officers/MattCira.jpg" alt="Mechanical Team member" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
               "My name is Matthew Cira, and I am a Junior in Mechanical engineering with a minor in Mathematics. I love SURF for the complex challenges that building a submarine entails and the creative and innovative solutions that we have created to solve those challenges."
-              </p> 
+              </p>
               <h6 style="margin:10px">Contact: mjcvyd@umsystem.edu</h6>
             </div>
-          </div>  
+          </div>
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
             <h4 style="margin:10px">Electrical Team Member</h4>
             <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
@@ -239,8 +239,8 @@ Website created and maintained by Alex Testin
               </p>
               <h6 style="margin:10px">Contact: ajt9zn@mst.edu</h6>
             </div>
-            
-          </div>  
+
+          </div>
 <!--
           <br>
           <br><br>
@@ -270,7 +270,7 @@ Website created and maintained by Alex Testin
         <div class="newsArticles">
         <h4 class="articleTitle">6/17/21 - Submitting for Robosub 2021</h4>
         Mizzou SURF is submitting for the virtual 2021 Robosub competition. Though there is no in-person competition in San Diego, CA this year, we are excited to show off Jelly through our videos and technical reports. This will be SURF's second time competing in the competition.
-        </div>        
+        </div>
         <hr class="fancy">
         <div id="newsLink">
           <a href="news.php" class="head">More ></a>
