@@ -190,7 +190,7 @@ Website created and maintained by Alex Testin
               <p class="bioBox" style="font-size: 12px">
                 "My name is Maria Lusardi and I am a senior studying Computer Science. SURF has not only given me great experience in developing software for autonomous applications, but it has also helped me develop leadership and organization skills. I also enjoy playing violin and knitting!"
               </p>
-              <h6 style="margin:10px">Contact: mclntg@umsystem.edu</h6>
+              <h6 style="margin:10px">Contact: dshc3f@umsystem.edu</h6>
             </div>
           </div>
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
@@ -201,7 +201,7 @@ Website created and maintained by Alex Testin
               <p class="bioBox" style="font-size: 12px">
               "I am a senior in Mechanical Engineering with a minor in Aerospace Engineering. I like SURF because building robots underwater comes with more challenges that require complex solutions."
               </p>
-              <h6 style="margin:10px">Contact: crbtvc@umsystem.edu</h6>
+              <h6 style="margin:10px">Contact: kkmbfc@umsystem.edu</h6>
             </div>
 
           </div>
@@ -219,7 +219,7 @@ Website created and maintained by Alex Testin
 
           </div>
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Mechanical Team Member</h4>
+            <h4 style="margin:10px">Mechanical Team Leader</h4>
             <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
               <i>Matt Cira<br></i>
               <img src="images/officers/MattCira.jpg" alt="Mechanical Team member" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
@@ -230,14 +230,14 @@ Website created and maintained by Alex Testin
             </div>
           </div>
           <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Electrical Team Member</h4>
+            <h4 style="margin:10px">Electrical Team Leader</h4>
             <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
               <i>Amelia Truong<br></i>
               <img src="images/officers/AmeliaTruong.jpeg" alt="Electrical Team Member" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
               "My name is Amelia Truong and I am a sophomore studying computer engineering. I like SURF because it has allowed me to experience real applications of my major that I couldn’t have gotten from classes during my freshman year."
               </p>
-              <h6 style="margin:10px">Contact: ajt9zn@mst.edu</h6>
+              <h6 style="margin:10px">Contact: ajt9zn@umsystem.edu</h6>
             </div>
 
           </div>
