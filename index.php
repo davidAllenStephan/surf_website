@@ -24,60 +24,60 @@ Website created and maintained by Alex Testin
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Play" media="none">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway" media="none">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Julius+Sans+One" media="none">
-    <script>
-      //facebook widget
-      window.onload = function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.async = true;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
-        fjs.parentNode.insertBefore(js, fjs);
+<script>
+//facebook widget
+window.onload = function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.async = true;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk');
 
       //mobile view compact menu
       function showmenu() {
-        document.getElementById('nav').classList.toggle('show');
+          document.getElementById('nav').classList.toggle('show');
       }
 
       //hide welcome message on scroll
       function yScroll(){
-        main = document.getElementById('main');
-        yPos = window.pageYOffset;
-        main.style.transitionDuration = "0.3s";
-        if(yPos > (document.documentElement.clientHeight / 6)) {
-          main.style.opacity = "0";
+          main = document.getElementById('main');
+          yPos = window.pageYOffset;
+          main.style.transitionDuration = "0.3s";
+          if(yPos > (document.documentElement.clientHeight / 6)) {
+              main.style.opacity = "0";
         } else {
-          main.style.opacity = "1";
+            main.style.opacity = "1";
         }
       }
       window.addEventListener('scroll', yScroll);
 
       //slide in UI onload
       window.onload = function() {
-        head = document.getElementById('headNav');
-        head.style.top = "0px";
-        arrow = document.getElementById('scrollIndicator');
-        arrow.style.margin = "0px";
-        main = document.getElementById('main');
-        yPos = window.pageYOffset;
-        if(yPos > (document.documentElement.clientHeight / 6)) {
-          main.style.opacity = "0";
+          head = document.getElementById('headNav');
+          head.style.top = "0px";
+          arrow = document.getElementById('scrollIndicator');
+          arrow.style.margin = "0px";
+          main = document.getElementById('main');
+          yPos = window.pageYOffset;
+          if(yPos > (document.documentElement.clientHeight / 6)) {
+              main.style.opacity = "0";
         } else {
-          main.style.opacity = "1";
+            main.style.opacity = "1";
         }
 
         //variables for smooth scrolling page shortcuts
         var targetOffset, currentPosition,
-        body = document.getElementById('contentToScroll'),
-        aboutUsButton = document.getElementById('aboutUsTab'),
-        newsButton = document.getElementById('newsTab'),
-        vehicleButton = document.getElementById('vehicleTab'),
-        sponsorsButton = document.getElementById('sponsorsTab'),
-        connectButton = document.getElementById('connectTab'),
-        subButton = document.getElementById('subButton'),
-        arrowButton = document.getElementById('arrowButton'),
-        animateTime = 900;
+            body = document.getElementById('contentToScroll'),
+            aboutUsButton = document.getElementById('aboutUsTab'),
+            newsButton = document.getElementById('newsTab'),
+            vehicleButton = document.getElementById('vehicleTab'),
+            sponsorsButton = document.getElementById('sponsorsTab'),
+            connectButton = document.getElementById('connectTab'),
+            subButton = document.getElementById('subButton'),
+            arrowButton = document.getElementById('arrowButton'),
+            animateTime = 900;
 
         aboutUsButton.addEventListener('click', smoothscroll);
         newsButton.addEventListener('click', smoothscroll);
@@ -88,31 +88,31 @@ Website created and maintained by Alex Testin
         arrowButton.addEventListener('click', smoothscroll);
 
         function getPageScroll() {
-          var yScroll;
-          if(window.pageYOffset) {
-            yScroll = window.pageYOffset;
+            var yScroll;
+            if(window.pageYOffset) {
+                yScroll = window.pageYOffset;
           } else if (document.documentElement && document.documentElement.scrollTop) {
-            yScroll = document.documentElement.scrollTop;
+              yScroll = document.documentElement.scrollTop;
           } else if (document.getElementById('contentToScroll')) {
-            yScroll = document.getElementById('contentToScroll').scrollTop;
+              yScroll = document.getElementById('contentToScroll').scrollTop;
           }
           return yScroll;
         }
 
         function smoothscroll(event) {
-          targetOffset = document.getElementById(event.target.hash.substr(1)).offsetTop;
-          currentPosition = getPageScroll();
+            targetOffset = document.getElementById(event.target.hash.substr(1)).offsetTop;
+            currentPosition = getPageScroll();
 
-          if((currentPosition - targetOffset) <= 10 && (currentPosition - targetOffset) >= -10) {
-            animateTime = 0;
+            if((currentPosition - targetOffset) <= 10 && (currentPosition - targetOffset) >= -10) {
+                animateTime = 0;
           } else {
-            animateTime = 900;
+              animateTime = 900;
           }
           totalHeight = document.documentElement.scrollHeight;
           windowHeight = document.documentElement.clientHeight;
           //check if the target position is greater than the height of the website, if so, it subtracts the difference so the scrolling can't go past the bottom (measured from the top of the window)
           if((totalHeight - windowHeight) < (currentPosition - (currentPosition - targetOffset))) {
-            targetOffset = targetOffset - ((currentPosition - (currentPosition - targetOffset)) - (totalHeight - windowHeight));
+              targetOffset = targetOffset - ((currentPosition - (currentPosition - targetOffset)) - (totalHeight - windowHeight));
           }
           body.classList.add('contentToScroll');
           body.style.WebkitTransform = "translate(0, " + (currentPosition - targetOffset) + "px)";
@@ -120,11 +120,11 @@ Website created and maintained by Alex Testin
           body.style.transform = "translate(0, " + (currentPosition - targetOffset) + "px)";
 
           window.setTimeout(function () {
-            body.classList.remove('contentToScroll');
-            body.style.cssText = "";
-            window.scrollTo(0, targetOffset);
-            main.style.transitionDuration = "0s";
-            main.style.opacity = "0";
+              body.classList.remove('contentToScroll');
+              body.style.cssText = "";
+              window.scrollTo(0, targetOffset);
+              main.style.transitionDuration = "0s";
+              main.style.opacity = "0";
           }, animateTime);
 
           event.preventDefault();
@@ -133,7 +133,6 @@ Website created and maintained by Alex Testin
     </script>
   </head>
   <body>
-
 <?php include 'header.html'; ?>
 <style>
   .cropimg {
@@ -159,7 +158,6 @@ Website created and maintained by Alex Testin
         <a id="arrowButton" class="arrow" href="#aboutUs"></a>
       </div>
     </div>
-
     <div id="aboutUs" class="container">
       <div class="content">
         <h3 class="sectionTitle">Welcome to Mizzou SURF</h3>
@@ -170,88 +168,72 @@ Website created and maintained by Alex Testin
         <h3 class="sectionTitle">Meet the Team: </h3>
         <br>
         <div style="display:inline-block; max-width:1280px; margin:0px auto 0px;">
-          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Treasurer</h4>
-            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
-              <i>Ethan Anderson<br></i>
-              <img src="images/officers/ea.jpg" alt="co-president" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
-              <p class="bioBox" style="font-size: 12px">
-              "Hello! My name is Nathan Crum, and I am a recent May 2022 graduate of Mizzou's Mechanical and Aerospace Engineering programs. I am fascinated by the development of aerospace vehicle control systems, and more recently have become an avid fan of the intersection between autonomous systems and aerospace vehicles. In my free time I enjoy exploring Columbia by bike and playing board games with friends!"
-              </p>
-              <h6 style="margin:10px">Contact: nac4dc@umsystem.edu</h6>
-            </div>
-
-          </div>
-          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Busniess Outreach Officer</h4>
-            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
-              <i>Daniel Hough<br></i>
-              <img src="images/officers/daniel_hough.jpg" alt="co-President" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
-              <p class="bioBox" style="font-size: 12px">
-                "My name is Maria Lusardi and I am a senior studying Computer Science. SURF has not only given me great experience in developing software for autonomous applications, but it has also helped me develop leadership and organization skills. I also enjoy playing violin and knitting!"
-              </p>
-              <h6 style="margin:10px">Contact: dshc3f@umsystem.edu</h6>
-            </div>
-          </div>
-          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Co-President and Software Team Lead</h4>
-            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
-              <i>Kendra Minch<br></i>
-              <img src="images/officers/headshot_Kendra.jpg" alt="Secretary" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
-              <p class="bioBox" style="font-size: 12px">
-              "I am a senior in Mechanical Engineering with a minor in Aerospace Engineering. I like SURF because building robots underwater comes with more challenges that require complex solutions."
-              </p>
-              <h6 style="margin:10px">Contact: kkmbfc@umsystem.edu</h6>
-            </div>
-
-          </div>
-
-          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Treasurer</h4>
-            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
-              <i>Mason Fleck<br></i>
-              <img src="images/officers/MasonFleck.jpeg" alt="Treasurer" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
-              <p class="bioBox" style="font-size: 12px">
-                "My name is Mason Fleck and I'm a junior majoring in electrical and computer engineering. What I like about Surf is that I get to explore a bunch of different aspects of engineering at once for one goal."
-              </p>
-              <h6 style="margin:10px">Contact: mrfc9r@umsystem.edu</h6>
-            </div>
-
-          </div>
-          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Mechanical Team Leader</h4>
-            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
-              <i>Matt Cira<br></i>
-              <img src="images/officers/MattCira.jpg" alt="Mechanical Team member" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
-              <p class="bioBox" style="font-size: 12px">
-              "My name is Matthew Cira, and I am a Junior in Mechanical engineering with a minor in Mathematics. I love SURF for the complex challenges that building a submarine entails and the creative and innovative solutions that we have created to solve those challenges."
-              </p>
-              <h6 style="margin:10px">Contact: mjcvyd@umsystem.edu</h6>
-            </div>
-          </div>
-          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Electrical Team Leader</h4>
+        <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
+            <h4 style="margin:10px">Co-President and Electrical Team Leader</h4>
             <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
               <i>Amelia Truong<br></i>
-              <img src="images/officers/AmeliaTruong.jpeg" alt="Electrical Team Member" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <img src="images/officers/AmeliaTruong.jpeg" alt="Co-President and Electrical Team Member" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
               "My name is Amelia Truong and I am a sophomore studying computer engineering. I like SURF because it has allowed me to experience real applications of my major that I couldn’t have gotten from classes during my freshman year."
               </p>
               <h6 style="margin:10px">Contact: ajt9zn@umsystem.edu</h6>
             </div>
-
           </div>
-<!--
-          <br>
-          <br><br>
-          <p>
-            <i>Alongside the officers we also have around 30 active memebers!</i>
-          </p>
--->
+          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
+            <h4 style="margin:10px">Co-President and Software Team Leader</h4>
+            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
+              <i>Kendra Minch<br></i>
+              <img src="images/officers/headshot_Kendra.jpg" alt="Co-President and Software Team Leader" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <p class="bioBox" style="font-size: 12px">
+              "I am a senior in Mechanical Engineering with a minor in Aerospace Engineering. I like SURF because building robots underwater comes with more challenges that require complex solutions."
+              </p>
+              <h6 style="margin:10px">Contact: kkmbfc@umsystem.edu</h6>
+            </div>
+          </div>
+            <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
+            <h4 style="margin:10px">Vice-President and Mechanical Team Leader</h4>
+                <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
+                <i>Matt Cira<br></i>
+                  <img src="images/officers/MattCira.jpg" alt="Vice-President and Mechanical Team Leader" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+                  <p class="bioBox" style="font-size: 12px">
+                  "My name is Matthew Cira, and I am a Junior in Mechanical engineering with a minor in Mathematics. I love SURF for the complex challenges that building a submarine entails and the creative and innovative solutions that we have created to solve those challenges."
+                  </p>
+                  <h6 style="margin:10px">Contact: mjcvyd@umsystem.edu</h6>
+                </div>
+          </div>
+          <div style="display:inline-block; width:320px; height:355px; margin:100px 36px 0px;">
+            <h4 style="margin:10px">Treasurer</h4>
+            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
+              <i>Ethan Anderson<br></i>
+              <img src="images/officers/ea.jpg" alt="Treasurer" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <p class="bioBox" style="font-size: 12px">
+              </p>
+              <h6 style="margin:10px">Contact: nac4dc@umsystem.edu</h6>
+            </div>
+          </div>
+          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
+            <h4 style="margin:10px">Busniess Outreach Officer</h4>
+            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:23px 0px; background-color:#b17c02;">
+              <i>Daniel Hough<br></i>
+              <img src="images/officers/daniel_hough.jpg" alt="Busniess Outreach Officer" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <p class="bioBox" style="font-size: 12px">
+              </p>
+              <h6 style="margin:10px">Contact: dshc3f@umsystem.edu</h6>
+            </div>
+          </div>
+          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
+            <h4 style="margin:10px">Social Media and 3D Printing Tech</h4>
+            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:15px 0px; background-color:#b17c02;">
+              <i>Matt Fegruson<br></i>
+              <img src="images/officers/matt_ferguson.jpg" alt="Social Media and 3D Printing Tech" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <p class="bioBox" style="font-size: 12px">
+              </p>
+              <h6 style="margin:10px">Contact: mpf88d@umsystem.edu</h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
     <div id="news">
       <div class="contentAlt">
         <h3 class="sectionTitleAlt">News</h3>
@@ -277,7 +259,6 @@ Website created and maintained by Alex Testin
         </div>
       </div>
     </div>
-
     <div id="vehicle" class="container">
       <div class="content">
       <h3 class="sectionTitle">2021-2022</h3><h2 class="sectionTitle"><i>Potens Pleumon</i><br>"Jelly"</h2>
@@ -311,15 +292,10 @@ Website created and maintained by Alex Testin
         Want to help sponsor our team? Contact us below to donate or find more ways to help!
       </div>
     </div>
-
-
 <?php include "footer.html"; ?>
-
   </div>
-
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Play">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
-
   </body>
 </html>

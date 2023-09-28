@@ -66,7 +66,7 @@ Website created and maintained by Alex Testin
           <hr class="fancy">
         <div class="newsArticles">
         <h4 class="articleTitle">4/19/21 - STEM Cubs Outreach</h4>
-        SURF will be participating in Mizzou's STEM Cubs program for the first time this year. STEM Cubs is an annual engineering day camp for students in grades K-5 focused on educating elementary school children from underrepresented or disadvantaged backgrounds. This year, it will consist of online tutorials. SURF is currently producing a video for the program for 4-5 graders on how to make your own submarine! Stay tuned for more details. 
+        SURF will be participating in Mizzou's STEM Cubs program for the first time this year. STEM Cubs is an annual engineering day camp for students in grades K-5 focused on educating elementary school children from underrepresented or disadvantaged backgrounds. This year, it will consist of online tutorials. SURF is currently producing a video for the program for 4-5 graders on how to make your own submarine! Stay tuned for more details.
         </div>
         <hr class="fancy">
         <div class="newsArticles">
@@ -96,17 +96,17 @@ Website created and maintained by Alex Testin
       <hr class="fancy">
         <div class="newsArticles">
           <h4 class="articleTitle">4/25/19 - First Water Test </h4>
-          Today we conducted our first leak test at the Mizzou Rec.  We discovered a few leaks in our connectors so now we head back to the build room to perform the necassary fixes.  Check out the photo gallery for lots of cool pictures and videos! 
+          Today we conducted our first leak test at the Mizzou Rec.  We discovered a few leaks in our connectors so now we head back to the build room to perform the necassary fixes.  Check out the photo gallery for lots of cool pictures and videos!
         </div>
       <hr class="fancy">
           <div class="newsArticles">
           <h4 class="articleTitle">12/5/2018 - Christmas Break </h4>
-          As finals comes to an end we want to thank our amazing members for working so hard on the progress of the sub. We are ending this semester with a sealed vessel and an almost completed electronics bay. We eagerly await the release of the new rules for the 2019 ROBOSUB competition and cannot wait to see what the next semester has in store for us! Everyone have a great break. 
+          As finals comes to an end we want to thank our amazing members for working so hard on the progress of the sub. We are ending this semester with a sealed vessel and an almost completed electronics bay. We eagerly await the release of the new rules for the 2019 ROBOSUB competition and cannot wait to see what the next semester has in store for us! Everyone have a great break.
         </div>
       <hr class="fancy">
           <div class="newsArticles">
           <h4 class="articleTitle">10/15/2018 - Funding Announcement!</h4>
-          Thanks to the hard work of our presidents and an even bigger thank you to the Mizzou College of Engineering we are very happy to anounce an 11,000 dollar donation towards Mizzou SURF. We look forward to continuing our work towards finishing our UAV and preparing for competition in July. 
+          Thanks to the hard work of our presidents and an even bigger thank you to the Mizzou College of Engineering we are very happy to anounce an 11,000 dollar donation towards Mizzou SURF. We look forward to continuing our work towards finishing our UAV and preparing for competition in July.
         </div>
       <hr class="fancy">
         <div class="newsArticles">
@@ -128,7 +128,7 @@ Website created and maintained by Alex Testin
           <h4 class="articleTitle">8/31/2017 - Breaking News!</h4>
           We have officially applied for official recognition from the university! Also BREAKING NEWS: SURF won the NASA-Missouri Space Consortium Grant and will be awarded the funding that comes with that prestigious award, so a special thanks to Dr. Josiah Bryan for believing in our mission!!
         </div>
-        
+
       </div>
     </div>
 
