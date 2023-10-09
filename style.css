@@ -287,9 +287,6 @@ hr.fancy {
   position: absolute;
   display: block;
   top: 200px;
-  width: 216px;
-  padding: 12px;
-  margin:10px 0px;
   background-color: rgba(20, 20, 20, 0.8);
   color: white;
   font-size: 16px;
@@ -512,7 +509,7 @@ hr.fancy {
   .show {
     display: block;
   }
-	
+
 	.tab {
 		display: block;
 	}
@@ -565,7 +562,7 @@ hr.fancy {
     height: 150px;
     padding: 40px 0px;
   }
-	
+
 	#twitterPlugin {
 		display: block;
 		height: 200px;
@@ -573,7 +570,7 @@ hr.fancy {
 		overflow: scroll;
 		margin: 0px auto;
 	}
-	
+
 	#facebookPlugin {
 		display: block;
 		height: 200px;

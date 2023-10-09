@@ -161,7 +161,7 @@ window.onload = function(d, s, id) {
     <div id="aboutUs" class="container">
       <div class="content">
         <h3 class="sectionTitle">Welcome to Mizzou SURF</h3>
-        students’ Underwater Robotics Foundation is an engineering student organization that strives to implement the knowledge of engineering courses to real life projects.  Mizzou SURF designs and manufactures marine robotic projects.  SURF is a competition team with an element of robotic research. We are currently hard at work preparing for the 2022 RoboSub competition at the University of Maryland, College Park!
+        Students’ Underwater Robotics Foundation is an engineering student organization that strives to implement the knowledge of engineering courses to real life projects. Mizzou SURF designs and manufactures marine robotic projects. SURF is a competition team with an element of robotic research. We are currently hard at work preparing for the 2024 RoboSub competition at the Transdeck in San Francisco!
         <br><br><br><br><br>
         <hr class="fancy">
         <br><br><br>
@@ -185,7 +185,7 @@ window.onload = function(d, s, id) {
               <i>Kendra Minch<br></i>
               <img src="images/officers/headshot_Kendra.jpg" alt="Co-President and Software Team Leader" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
-              "I am a senior in Mechanical Engineering with a minor in Aerospace Engineering. I like SURF because building robots underwater comes with more challenges that require complex solutions."
+                "My name is Kendra Minch and I am a Senior studying Computer Science with a minor in Mathematics. Mizzou SURF has allowed me to learn more about programming autonomous systems and problem solving in a team environment."
               </p>
               <h6 style="margin:10px">Contact: kkmbfc@umsystem.edu</h6>
             </div>
@@ -196,14 +196,18 @@ window.onload = function(d, s, id) {
                 <i>Matt Cira<br></i>
                   <img src="images/officers/MattCira.jpg" alt="Vice-President and Mechanical Team Leader" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
                   <p class="bioBox" style="font-size: 12px">
-                  "My name is Matthew Cira, and I am a Junior in Mechanical engineering with a minor in Mathematics. I love SURF for the complex challenges that building a submarine entails and the creative and innovative solutions that we have created to solve those challenges."
+                "I am Matt Cira and am a current Senior in the Mechanical and Aerospace Engineering program. SURF provides me with the real life, hands on application of my courses while allowing me to work through the complex problems of waterproof robotic systems."
                   </p>
                   <h6 style="margin:10px">Contact: mjcvyd@umsystem.edu</h6>
                 </div>
           </div>
-          <div style="display:inline-block; width:320px; height:355px; margin:100px 36px 0px;">
-            <h4 style="margin:10px">Treasurer</h4>
-            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:12px 0px; background-color:#b17c02;">
+<br/>
+<br/>
+<br/>
+<br/>
+          <div style="display:inline-block; width:240px; height:355px; margin: 0px 35px 0px 35px;">
+            <h4>Treasurer</h4>
+            <div class="officer" style="position: absolute; width:240px; padding:12px 0px; background-color:#b17c02;">
               <i>Ethan Anderson<br></i>
               <img src="images/officers/ea.jpg" alt="Treasurer" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
@@ -211,21 +215,33 @@ window.onload = function(d, s, id) {
               <h6 style="margin:10px">Contact: nac4dc@umsystem.edu</h6>
             </div>
           </div>
-          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Busniess Outreach Officer</h4>
-            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:23px 0px; background-color:#b17c02;">
+          <div style="display:inline-block; width:240px; height:355px; margin: 0px 35px 0px 35px;">
+            <h4>Busniess Outreach Officer</h4>
+            <div class="officer" style="position: absolute; width:240px; padding:12px 0px; background-color:#b17c02;">
               <i>Daniel Hough<br></i>
               <img src="images/officers/daniel_hough.jpg" alt="Busniess Outreach Officer" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
+                "I am Daniel Hough and I’m a sophomore majoring in Mechanical Engineering with minors in Mathematics and Aerospace Engineering. SURF has provided me with hands-on engineering experiences, like design, manufacturing, and waterproofing."
               </p>
-              <h6 style="margin:10px">Contact: dshc3f@umsystem.edu</h6>
+              <h6 style="margin:10px"> Contact :  dshc3f@umsystem.edu</h6>
             </div>
           </div>
-          <div style="display:inline-block; width:320px; height:355px; margin:10px 36px 0px;">
-            <h4 style="margin:10px">Social Media and 3D Printing Tech</h4>
-            <div class="officer" style="position:absolute; width:240px; margin: 0px 40px; padding:15px 0px; background-color:#b17c02;">
+          <div style="display:inline-block; width:240px; height:355px; margin: 0px 35px 0px 35px;">
+            <h4>Social Media and 3D Printing Tech</h4>
+            <div class="officer" style="position: absolute; width:240px; padding:12px 0px; background-color:#b17c02;">
               <i>Matt Fegruson<br></i>
               <img src="images/officers/matt_ferguson.jpg" alt="Social Media and 3D Printing Tech" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
+              <p class="bioBox" style="font-size: 12px">
+                "Hi, I’m Matt Ferguson and I’m a sophomore majoring in Electrical engineering and minoring in Nuclear engineering here at Mizzou. SURF has provided me with practical and hands-on experiences of engineering, like the implementation of software, electronics, additive manufacturing, and waterproofing into our competition robot."
+              </p>
+              <h6 style="margin:10px">Contact: mpf88d@umsystem.edu</h6>
+            </div>
+          </div>
+            <div style="display:inline-block; width:240px; height:355px; margin: 0px 35px 0px 35px;">
+            <h4>Mechanical Team Lead</h4>
+            <div class="officer" style="position: absolute; width:240px; padding:12px 0px; background-color:#b17c02;">
+              <i>Kate Sherard<br></i>
+              <img src="images/officers/katesherard.jpg" alt="Social Media and 3D Printing Tech" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
               </p>
               <h6 style="margin:10px">Contact: mpf88d@umsystem.edu</h6>
