@@ -212,7 +212,7 @@ window.onload = function(d, s, id) {
               <img src="images/officers/ea.jpg" alt="Treasurer" style="max-width:200px; filter:grayscale(100%); -webkit-filter:grayscale(100%); height:200px; overflow:hidden;">
               <p class="bioBox" style="font-size: 12px">
               </p>
-              <h6 style="margin:10px">Contact: nac4dc@umsystem.edu</h6>
+              <h6 style="margin:10px">Contact: ecary6@umsystem.edu</h6>
             </div>
           </div>
           <div style="display:inline-block; width:240px; height:355px; margin: 0px 35px 0px 35px;">
